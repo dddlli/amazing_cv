@@ -360,7 +360,7 @@ if __name__ == '__main__':
 ["Beyond Self-attention: External Attention using Two Linear Layers for Visual Tasks"](https://arxiv.org/abs/2105.02358)
 
 #### 1.2. Overview
-![](./model/img/External_Attention.png)
+![](./amazing_cv/img/External_Attention.png)
 
 #### 1.3. Usage Code
 ```python
@@ -381,7 +381,7 @@ print(output.shape)
 ["Attention Is All You Need"](https://arxiv.org/pdf/1706.03762.pdf)
 
 #### 1.2. Overview
-![](./model/img/SA.png)
+![](./amazing_cv/img/SA.png)
 
 #### 1.3. Usage Code
 ```python
@@ -401,7 +401,7 @@ print(output.shape)
 [None]()
 
 #### 3.2. Overview
-![](./model/img/SSA.png)
+![](./amazing_cv/img/SSA.png)
 
 #### 3.3. Usage Code
 ```python
@@ -422,7 +422,7 @@ print(output.shape)
 ["Squeeze-and-Excitation Networks"](https://arxiv.org/abs/1709.01507)
 
 #### 4.2. Overview
-![](./model/img/SE.png)
+![](./amazing_cv/img/SE.png)
 
 #### 4.3. Usage Code
 ```python
@@ -443,7 +443,7 @@ print(output.shape)
 ["Selective Kernel Networks"](https://arxiv.org/pdf/1903.06586.pdf)
 
 #### 5.2. Overview
-![](./model/img/SK.png)
+![](./amazing_cv/img/SK.png)
 
 #### 5.3. Usage Code
 ```python
@@ -463,9 +463,9 @@ print(output.shape)
 ["CBAM: Convolutional Block Attention Module"](https://openaccess.thecvf.com/content_ECCV_2018/papers/Sanghyun_Woo_Convolutional_Block_Attention_ECCV_2018_paper.pdf)
 
 #### 6.2. Overview
-![](./model/img/CBAM1.png)
+![](./amazing_cv/img/CBAM1.png)
 
-![](./model/img/CBAM2.png)
+![](./amazing_cv/img/CBAM2.png)
 
 #### 6.3. Usage Code
 ```python
@@ -487,7 +487,7 @@ print(output.shape)
 ["BAM: Bottleneck Attention Module"](https://arxiv.org/pdf/1807.06514.pdf)
 
 #### 7.2. Overview
-![](./model/img/BAM.png)
+![](./amazing_cv/img/BAM.png)
 
 #### 7.3. Usage Code
 ```python
@@ -508,7 +508,7 @@ print(output.shape)
 ["ECA-Net: Efficient Channel Attention for Deep Convolutional Neural Networks"](https://arxiv.org/pdf/1910.03151.pdf)
 
 #### 8.2. Overview
-![](./model/img/ECA.png)
+![](./amazing_cv/img/ECA.png)
 
 #### 8.3. Usage Code
 ```python
@@ -529,7 +529,7 @@ print(output.shape)
 ["Dual Attention Network for Scene Segmentation"](https://arxiv.org/pdf/1809.02983.pdf)
 
 #### 9.2. Overview
-![](./model/img/danet.png)
+![](./amazing_cv/img/danet.png)
 
 #### 9.3. Usage Code
 ```python
@@ -550,7 +550,7 @@ print(danet(input).shape)
 ["EPSANet: An Efficient Pyramid Split Attention Block on Convolutional Neural Network"](https://arxiv.org/pdf/2105.14447.pdf)
 
 #### 10.2. Overview
-![](./model/img/psa.png)
+![](./amazing_cv/img/psa.png)
 
 #### 10.3. Usage Code
 ```python
@@ -573,7 +573,7 @@ print(output.shape)
 ["ResT: An Efficient Transformer for Visual Recognition"](https://arxiv.org/abs/2105.13677)
 
 #### 11.2. Overview
-![](./model/img/EMSA.png)
+![](./amazing_cv/img/EMSA.png)
 
 #### 11.3. Usage Code
 ```python
@@ -599,7 +599,7 @@ print(output.shape)
 ["SA-NET: SHUFFLE ATTENTION FOR DEEP CONVOLUTIONAL NEURAL NETWORKS"](https://arxiv.org/pdf/2102.00240.pdf)
 
 #### 12.2. Overview
-![](./model/img/ShuffleAttention.jpg)
+![](./amazing_cv/img/ShuffleAttention.jpg)
 
 #### 12.3. Usage Code
 ```python
@@ -628,7 +628,7 @@ print(output.shape)
 ["MUSE: Parallel Multi-Scale Attention for Sequence to Sequence Learning"](https://arxiv.org/abs/1911.09483)
 
 #### 13.2. Overview
-![](./model/img/MUSE.png)
+![](./amazing_cv/img/MUSE.png)
 
 #### 13.3. Usage Code
 ```python
@@ -654,7 +654,7 @@ print(output.shape)
 [Spatial Group-wise Enhance: Improving Semantic Feature Learning in Convolutional Networks](https://arxiv.org/pdf/1905.09646.pdf)
 
 #### 14.2. Overview
-![](./model/img/SGE.png)
+![](./amazing_cv/img/SGE.png)
 
 #### 14.3. Usage Code
 ```python
@@ -679,7 +679,7 @@ print(output.shape)
 [A2-Nets: Double Attention Networks](https://arxiv.org/pdf/1810.11579.pdf)
 
 #### 15.2. Overview
-![](./model/img/A2.png)
+![](./amazing_cv/img/A2.png)
 
 #### 15.3. Usage Code
 ```python
@@ -703,7 +703,7 @@ print(output.shape)
 [An Attention Free Transformer](https://arxiv.org/pdf/2105.14103v1.pdf)
 
 #### 16.2. Overview
-![](./model/img/AFT.jpg)
+![](./amazing_cv/img/AFT.jpg)
 
 #### 16.3. Usage Code
 ```python
@@ -733,7 +733,7 @@ print(output.shape)
 
 
 #### 17.2. Overview
-![](./model/img/OutlookAttention.png)
+![](./amazing_cv/img/OutlookAttention.png)
 
 #### 17.3. Usage Code
 ```python
@@ -766,7 +766,7 @@ print(output.shape)
 
 
 #### 18.2. Overview
-![](./model/img/ViP.png)
+![](./amazing_cv/img/ViP.png)
 
 #### 18.3. Usage Code
 ```python
@@ -836,7 +836,7 @@ print(out.shape)
 
 #### 20.2. Overview
 
-![](./model/img/HaloNet.png)
+![](./amazing_cv/img/HaloNet.png)
 
 #### 20.3. Usage Code
 ```python
@@ -867,7 +867,7 @@ print(output.shape)
 
 #### 21.2. Overview
 
-![](./model/img/PoSA.png)
+![](./amazing_cv/img/PoSA.png)
 
 #### 21.3. Usage Code
 ```python
@@ -898,7 +898,7 @@ print(output.shape)
 
 #### 22.2. Overview
 
-![](./model/img/CoT.png)
+![](./amazing_cv/img/CoT.png)
 
 #### 22.3. Usage Code
 ```python
@@ -929,7 +929,7 @@ print(output.shape)
 
 #### 23.2. Overview
 
-![](./model/img/ResAtt.png)
+![](./amazing_cv/img/ResAtt.png)
 
 #### 23.3. Usage Code
 ```python
@@ -961,7 +961,7 @@ print(output.shape)
 
 #### 24.2. Overview
 
-![](./model/img/S2Attention.png)
+![](./amazing_cv/img/S2Attention.png)
 
 #### 24.3. Usage Code
 ```python
@@ -990,7 +990,7 @@ print(output.shape)
 
 #### 25.2. Overview
 
-![](./model/img/GFNet.jpg)
+![](./amazing_cv/img/GFNet.jpg)
 
 #### 25.3. Usage Code - Implemented by [Wenliang Zhao (Author)](https://scholar.google.com/citations?user=lyPWvuEAAAAJ&hl=en)
 
@@ -1018,7 +1018,7 @@ print(out.shape)
 
 #### 26.2. Overview
 
-![](./model/img/triplet.png)
+![](./amazing_cv/img/triplet.png)
 
 #### 26.3. Usage Code - Implemented by [digantamisra98](https://github.com/digantamisra98)
 
@@ -1046,7 +1046,7 @@ print(output.shape)
 
 #### 27.2. Overview
 
-![](./model/img/CoordAttention.png)
+![](./amazing_cv/img/CoordAttention.png)
 
 #### 27.3. Usage Code - Implemented by [Andrew-Qibin](https://github.com/Andrew-Qibin)
 
@@ -1077,7 +1077,7 @@ print(output.shape)
 
 #### 28.2. Overview
 
-![](./model/img/MobileViTAttention.png)
+![](./amazing_cv/img/MobileViTAttention.png)
 
 #### 28.3. Usage Code
 
@@ -1107,7 +1107,7 @@ if __name__ == '__main__':
 
 #### 29.2. Overview
 
-![](./model/img/ParNet.png)
+![](./amazing_cv/img/ParNet.png)
 
 #### 29.3. Usage Code
 
@@ -1137,7 +1137,7 @@ if __name__ == '__main__':
 
 #### 30.2. Overview
 
-![](./model/img/UFO.png)
+![](./amazing_cv/img/UFO.png)
 
 #### 30.3. Usage Code
 
@@ -1186,7 +1186,7 @@ if __name__ == '__main__':
 
 #### 32.2. Overview
 
-![](./model/img/MobileViTv2.png)
+![](./amazing_cv/img/MobileViTv2.png)
 
 #### 32.3. Usage Code
 
@@ -1428,8 +1428,8 @@ if __name__ == '__main__':
 ["Deep Residual Learning for Image Recognition---CVPR2016 Best Paper"](https://arxiv.org/pdf/1512.03385.pdf)
 
 #### 1.2. Overview
-![](./model/img/resnet.png)
-![](./model/img/resnet2.jpg)
+![](./amazing_cv/img/resnet.png)
+![](./amazing_cv/img/resnet2.jpg)
 
 #### 1.3. Usage Code
 ```python
@@ -1453,7 +1453,7 @@ if __name__ == '__main__':
 ["Aggregated Residual Transformations for Deep Neural Networks---CVPR2017"](https://arxiv.org/abs/1611.05431v2)
 
 #### 2.2. Overview
-![](./model/img/resnext.png)
+![](./amazing_cv/img/resnext.png)
 
 #### 2.3. Usage Code
 ```python
@@ -1480,7 +1480,7 @@ if __name__ == '__main__':
 [MobileViT: Light-weight, General-purpose, and Mobile-friendly Vision Transformer---ArXiv 2020.10.05](https://arxiv.org/abs/2103.02907)
 
 #### 3.2. Overview
-![](./model/img/mobileViT.jpg)
+![](./amazing_cv/img/mobileViT.jpg)
 
 #### 3.3. Usage Code
 ```python
@@ -1519,7 +1519,7 @@ if __name__ == '__main__':
 #### 4.1. Paper
 [Patches Are All You Need?---ICLR2022 (Under Review)](https://openreview.net/forum?id=TVHS5Y4dNvM)
 #### 4.2. Overview
-![](./model/img/ConvMixer.png)
+![](./amazing_cv/img/ConvMixer.png)
 
 #### 4.3. Usage Code
 ```python
@@ -2069,7 +2069,7 @@ if __name__ == "__main__":
 ["RepMLP: Re-parameterizing Convolutions into Fully-connected Layers for Image Recognition"](https://arxiv.org/pdf/2105.01883v1.pdf)
 
 #### 1.2. Overview
-![](./model/img/repmlp.png)
+![](./amazing_cv/img/repmlp.png)
 
 #### 1.3. Usage Code
 ```python
@@ -2111,7 +2111,7 @@ print(((deployout-out)**2).sum())
 ["MLP-Mixer: An all-MLP Architecture for Vision"](https://arxiv.org/pdf/2105.01601.pdf)
 
 #### 2.2. Overview
-![](./model/img/mlpmixer.png)
+![](./amazing_cv/img/mlpmixer.png)
 
 #### 2.3. Usage Code
 ```python
@@ -2130,7 +2130,7 @@ print(output.shape)
 ["ResMLP: Feedforward networks for image classification with data-efficient training"](https://arxiv.org/pdf/2105.03404.pdf)
 
 #### 3.2. Overview
-![](./model/img/resmlp.png)
+![](./amazing_cv/img/resmlp.png)
 
 #### 3.3. Usage Code
 ```python
@@ -2150,7 +2150,7 @@ print(out.shape) #the last dimention is class_num
 ["Pay Attention to MLPs"](https://arxiv.org/abs/2105.08050)
 
 #### 4.2. Overview
-![](./model/img/gMLP.jpg)
+![](./amazing_cv/img/gMLP.jpg)
 
 #### 4.3. Usage Code
 ```python
@@ -2174,7 +2174,7 @@ print(output.shape)
 ["Sparse MLP for Image Recognition: Is Self-Attention Really Necessary?"](https://arxiv.org/abs/2109.05422)
 
 #### 5.2. Overview
-![](./model/img/sMLP.jpg)
+![](./amazing_cv/img/sMLP.jpg)
 
 #### 5.3. Usage Code
 ```python
@@ -2233,7 +2233,7 @@ if __name__ == '__main__':
 ["RepVGG: Making VGG-style ConvNets Great Again"](https://arxiv.org/abs/2101.03697)
 
 #### 1.2. Overview
-![](./model/img/repvgg.png)
+![](./amazing_cv/img/repvgg.png)
 
 #### 1.3. Usage Code
 ```python
@@ -2261,7 +2261,7 @@ print(((out2-out)**2).sum())
 ["ACNet: Strengthening the Kernel Skeletons for Powerful CNN via Asymmetric Convolution Blocks"](https://arxiv.org/abs/1908.03930)
 
 #### 2.2. Overview
-![](./model/img/acnet.png)
+![](./amazing_cv/img/acnet.png)
 
 #### 2.3. Usage Code
 ```python
@@ -2289,7 +2289,7 @@ print(((out2-out)**2).sum())
 ["Diverse Branch Block: Building a Convolution as an Inception-like Unit"](https://arxiv.org/abs/2103.13425)
 
 #### 2.2. Overview
-![](./model/img/ddb.png)
+![](./amazing_cv/img/ddb.png)
 
 #### 2.3. Usage Code
 ##### 2.3.1 Transform I
@@ -2446,7 +2446,7 @@ print("difference:",((out2-out1)**2).sum().item())
 ["MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications"](https://arxiv.org/abs/1704.04861)
 
 #### 1.2. Overview
-![](./model/img/DepthwiseSeparableConv.png)
+![](./amazing_cv/img/DepthwiseSeparableConv.png)
 
 #### 1.3. Usage Code
 ```python
@@ -2469,7 +2469,7 @@ print(out.shape)
 ["Efficientnet: Rethinking model scaling for convolutional neural networks"](http://proceedings.mlr.press/v97/tan19a.html)
 
 #### 2.2. Overview
-![](./model/img/MBConv.jpg)
+![](./amazing_cv/img/MBConv.jpg)
 
 #### 2.3. Usage Code
 ```python
@@ -2494,7 +2494,7 @@ print(out.shape)
 ["Involution: Inverting the Inherence of Convolution for Visual Recognition"](https://arxiv.org/abs/2103.06255)
 
 #### 3.2. Overview
-![](./model/img/Involution.png)
+![](./amazing_cv/img/Involution.png)
 
 #### 3.3. Usage Code
 ```python
@@ -2517,7 +2517,7 @@ print(out.shape)
 ["Dynamic Convolution: Attention over Convolution Kernels"](https://arxiv.org/abs/1912.03458)
 
 #### 4.2. Overview
-![](./model/img/DynamicConv.png)
+![](./amazing_cv/img/DynamicConv.png)
 
 #### 4.3. Usage Code
 ```python
@@ -2542,7 +2542,7 @@ if __name__ == '__main__':
 ["CondConv: Conditionally Parameterized Convolutions for Efficient Inference"](https://arxiv.org/abs/1904.04971)
 
 #### 5.2. Overview
-![](./model/img/CondConv.png)
+![](./amazing_cv/img/CondConv.png)
 
 #### 5.3. Usage Code
 ```python
