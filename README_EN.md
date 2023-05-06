@@ -1,9 +1,9 @@
 
 <img src="./FightingCVimg/LOGO.gif" height="200" width="400"/>
 
-简体中文 | [English](./README_EN.md)
+English | [简体中文](./README.md)
 
-# FightingCV 代码库， 包含 [***Attention***](#attention-series),[***Backbone***](#backbone-series), [***MLP***](#mlp-series), [***Re-parameter***](#re-parameter-series), [**Convolution**](#convolution-series)
+# FightingCV Codebase For [***Attention***](#attention-series),[***Backbone***](#backbone-series), [***MLP***](#mlp-series), [***Re-parameter***](#re-parameter-series), [**Convolution**](#convolution-series)
 
 ![](https://img.shields.io/badge/fightingcv-v0.0.1-brightgreen)
 ![](https://img.shields.io/badge/python->=v3.0-blue)
@@ -11,126 +11,69 @@
 
 <!--
 -------
-*If this project is helpful to you, welcome to give a ***star***.* 
+*If this project is helpful to you, welcome to give a*star***.* 
 
-*Don't forget to ***follow*** me to learn about project updates.*
+*Don't forget to*follow*me to learn about project updates.*
 
 -->
 
+-------
+
+
+🔥🔥🔥As a supplement to the project, a object detection codebase [YOLOAir](https://github.com/iscyy/yoloair) has recently been newly opened, which integrates various attention mechanisms in the object detection algorithm. The code is simple and easy to read. Welcome to play and star🌟!**
+
+
+<!-- ![image](https://user-images.githubusercontent.com/33897496/184842902-9acff374-b3e7-401a-80fd-9d484e40c637.png) -->
 
 
 
-Hello，大家好，我是小马🚀🚀🚀
+-------
 
-***For 小白（Like Me）：***
-最近在读论文的时候会发现一个问题，有时候论文核心思想非常简单，核心代码可能也就十几行。但是打开作者release的源码时，却发现提出的模块嵌入到分类、检测、分割等任务框架中，导致代码比较冗余，对于特定任务框架不熟悉的我，**很难找到核心代码**，导致在论文和网络思想的理解上会有一定困难。
+Hello, everyone, I'm Xiaoma 🚀🚀🚀
 
-***For 进阶者（Like You）：***
-如果把Conv、FC、RNN这些基本单元看做小的Lego积木，把Transformer、ResNet这些结构看成已经搭好的Lego城堡。那么本项目提供的模块就是一个个具有完整语义信息的Lego组件。**让科研工作者们避免反复造轮子**，只需思考如何利用这些“Lego组件”，搭建出更多绚烂多彩的作品。
+***For beginners (like me):***
+Recently, I found a problem when reading the paper. Sometimes the core idea of the paper is very simple, and the core code may be just a dozen lines. However, when I open the source code of the author's release, I find that the proposed module is embedded in the task framework such as classification, detection and segmentation, resulting in redundant code. For me who is not familiar with the specific task framework, it is difficult to find the core code, resulting in some difficulties in understanding the paper and network ideas.
 
-***For 大神（May Be Like You）：***
-能力有限，**不喜轻喷**！！！
+***For advanced (like you):***
+If the basic units conv, FC and RNN are regarded as small Lego blocks, and the structures transformer and RESNET are regarded as LEGO castles that have been built. The modules provided by this project are LEGO components with complete semantic informationLet scientific researchers avoid repeatedly building wheels, just think about how to use these "LEGO components" to build more colorful works.
+
+***For proficient (may be like you):***
+Limited capacity, do not like light spraying!!!
 
 ***For All：***
-本项目致力于实现一个既能**让深度学习小白也能搞懂**，又能**服务科研和工业社区**的代码库。
-
-<!--
-作为[**FightingCV公众号**](https://mp.weixin.qq.com/s/m9RiivbbDPdjABsTd6q8FA)和 **[FightingCV-Paper-Reading](https://github.com/xmu-xiaoma666/FightingCV-Paper-Reading)** 的补充，本项目的宗旨是从代码角度，实现🚀**让世界上没有难读的论文**🚀。
--->
-
-（同时也非常欢迎各位科研工作者将自己的工作的核心代码整理到本项目中，推动科研社区的发展，会在readme中注明代码的作者~）
-
+This project aims to realize a code base that can make beginners of deep learning understand and serve scientific research and industrial communities. As [fightingcv wechat official account]( https://mp.weixin.qq.com/s/m9RiivbbDPdjABsTd6q8FA )The purpose of this project is to achieve 🚀Let there be no hard to read papers in the world🚀。
+(at the same time, we also welcome all scientific researchers to sort out the core code of their work into this project, promote the development of the scientific research community, and indicate the author of the code in readme ~)
 
 
 <!--
 
-## 技术交流 <img title="" src="https://user-images.githubusercontent.com/48054808/157800467-2a9946ad-30d1-49a9-b9db-ba33413d9c90.png" alt="" width="20">
 
-欢迎大家关注公众号：**FightingCV**
-
+## Wechat Official account &  communication group
 
 
-| FightingCV公众号 | 小助手微信 （备注【**公司/学校+方向+ID**】）|
-:-------------------------:|:-------------------------:
-<img src='./FightingCVimg/FightingCV.jpg' width='200px'>  |  <img src='./FightingCVimg/xiaozhushou.jpg' width='200px'> 
 
-- 公众号**每天**都会进行**论文、算法和代码的干货分享**哦~
-
-- **交流群每天分享一些最新的论文和解析**，欢迎大家一起**学习交流**哈~~~
-（加不进去可以加微信：**775629340**，记得备注【**公司/学校+方向+ID**】）
+Welcome to pay attention to wechat official account: **fightingcv**
 
 
-- 强烈推荐大家关注[**知乎**](https://www.zhihu.com/people/jason-14-58-38/posts)账号和[**FightingCV公众号**](https://mp.weixin.qq.com/s/m9RiivbbDPdjABsTd6q8FA)，可以快速了解到最新优质的干货资源。
+
+The official account shares papers, algorithms and codes every day Oh~
+
+
+
+
+**Share some recent papers and analysis in the group every day. Welcome to study and exchange ha~~~
+
+(if you can't add it, you can add wechat: **775629340**, remember the remarks **[company / school + direction + ID])**
+
+![](./FightingCVimg/wechat.jpg)
+
+We strongly recommend that you pay attention to [Zhihu]( https://www.zhihu.com/people/jason-14-58-38/posts )Account number and **[fightingcv Wechat official account**]( https://mp.weixin.qq.com/s/m9RiivbbDPdjABsTd6q8FA )** to quickly learn about the latest high-quality dry goods resources.
+
 -->
 
--------
+***
 
-## 新增
-
-- 支持通过 pip 方式使用该代码库
-
-## 使用
-
-### 安装
-
- 直接通过 pip 安装
-
-  ```shell
-  pip install fightingcv-attention
-  ```
-
-
-或克隆该仓库
-
-  ```shell
-  git clone https://github.com/xmu-xiaoma666/External-Attention-pytorch.git
-
-  cd External-Attention-pytorch
-  ```
-
-### 演示
-
-#### 使用 pip 方式
-```python
-import torch
-from torch import nn
-from torch.nn import functional as F
-
-# 使用 pip 方式
-
-from fightingcv_attention.attention.MobileViTv2Attention import *
-
-if __name__ == '__main__':
-    input=torch.randn(50,49,512)
-    sa = MobileViTv2Attention(d_model=512)
-    output=sa(input)
-    print(output.shape)
-```
-
- - pip包 内置模块使用参考: [fightingcv-attention 说明文档](./README_pip.md)
-
-#### 使用 git 方式
-```python
-import torch
-from torch import nn
-from torch.nn import functional as F
-
-# 与 pip方式 区别在于 将 `fightingcv_attention` 替换 `model`
-
-from model.attention.MobileViTv2Attention import *
-
-if __name__ == '__main__':
-    input=torch.randn(50,49,512)
-    sa = MobileViTv2Attention(d_model=512)
-    output=sa(input)
-    print(output.shape)
-```
-
--------
-
-
-
-# 目录
+# Contents
 
 - [Attention Series](#attention-series)
     - [1. External Attention Usage](#1-external-attention-usage)
@@ -255,11 +198,6 @@ if __name__ == '__main__':
 
     - [23. CMT Usage](#23-CMT-Usage)
 
-    - [24. EfficientFormer Usage](#24-EfficientFormer-Usage)
-
-    - [25. ConvNeXtV2 Usage](#25-ConvNeXtV2-Usage)
-
-
 
 - [MLP Series](#mlp-series)
 
@@ -296,7 +234,6 @@ if __name__ == '__main__':
     - [5. CondConv Usage](#5-CondConv-Usage)
 
 ***
-
 
 
 # Attention Series
@@ -1449,10 +1386,6 @@ if __name__ == '__main__':
 
 - Pytorch implementation of [Vision Transformer with Deformable Attention---CVPR 2022](https://arxiv.org/abs/2201.00520)
 
-- Pytorch implementation of [EfficientFormer: Vision Transformers at MobileNet Speed](https://arxiv.org/abs/2206.01191)
-
-- Pytorch implementation of [ConvNeXtV2: Co-designing and Scaling ConvNets with Masked Autoencoders](https://arxiv.org/abs/2301.00808)
-
 
 ### 1. ResNet Usage
 #### 1.1. Paper
@@ -2035,48 +1968,6 @@ if __name__ == '__main__':
 
 ```
 
-### 24 EfficientFormer Usage
-#### 24.1. Paper
-[EfficientFormer: Vision Transformers at MobileNet Speed](https://arxiv.org/abs/2206.01191)
-
-#### 24.2. Usage Code
-```python
-
-from model.backbone.EfficientFormer import EfficientFormer
-import torch
-from torch import nn
-
-if __name__ == '__main__':
-    input=torch.randn(1,3,224,224)
-    model = EfficientFormer(
-        layers=EfficientFormer_depth['l1'],
-        embed_dims=EfficientFormer_width['l1'],
-        downsamples=[True, True, True, True],
-        vit_num=1,
-    )
-    output=model(input)
-    print(output[0].shape)
-
-```
-
-### 25 ConvNeXtV2 Usage
-#### 25.1. Paper
-[ConvNeXtV2: Co-designing and Scaling ConvNets with Masked Autoencoders](https://arxiv.org/abs/2301.00808)
-
-#### 25.2. Usage Code
-```python
-
-from model.backbone.convnextv2 import convnextv2_atto
-import torch
-from torch import nn
-
-if __name__ == "__main__":
-    model = convnextv2_atto()
-    input = torch.randn(1, 3, 224, 224)
-    out = model(input)
-    print(out.shape)
-
-```
 
 
 
@@ -2582,10 +2473,6 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-
-
-
-
 if __name__ == '__main__':
     input=torch.randn(2,32,64,64)
     m=CondConv(in_planes=32,out_planes=64,kernel_size=3,stride=1,padding=1,bias=False)
@@ -2594,24 +2481,4 @@ if __name__ == '__main__':
 
 ```
 
-
-
-## 其他项目推荐
-
--------
-
-🔥🔥🔥 重磅！！！作为项目补充，更多论文层面的解析，可以关注新开源的项目 **[FightingCV-Paper-Reading](https://github.com/xmu-xiaoma666/FightingCV-Paper-Reading)** ，里面汇集和整理了各大顶会顶刊的论文解析
-
-
-
-🔥🔥🔥重磅！！！ 最近为大家整理了网上的各种AI相关的视频教程和必读论文 **[FightingCV-Course
-](https://github.com/xmu-xiaoma666/FightingCV-Course)**
-
-
-🔥🔥🔥 重磅！！！最近全新开源了一个 **[YOLOAir](https://github.com/iscyy/yoloair)** 目标检测代码库 ，里面集成了多种YOLO模型，包括YOLOv5, YOLOv7,YOLOR, YOLOX,YOLOv4, YOLOv3以及其他YOLO模型，还包括多种现有Attention机制。
-
-
-🔥🔥🔥 **ECCV2022论文汇总：[ECCV2022-Paper-List](https://github.com/xmu-xiaoma666/ECCV2022-Paper-List/blob/master/README.md)**
-
-
-<!-- ![image](https://user-images.githubusercontent.com/33897496/184842902-9acff374-b3e7-401a-80fd-9d484e40c637.png) -->
+***
