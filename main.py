@@ -51,16 +51,16 @@ if __name__ == '__main__':
     # output = sa(input)
     # print(output.shape)
 
-    # input = paddle.randn([50, 49, 512])
-    # sa = MUSEAttention(d_model=512, d_k=512, d_v=512, h=8)
-    # output = sa(input, input, input)
-    # print(output.shape)
-
-    num_tokens = 10000
-    bs = 50
-    len_sen = 49
-    num_layers = 6
-    input = paddle.randint(num_tokens, (bs, len_sen))  # bs,len_sen
-    gmlp = gMLP(num_tokens=num_tokens, len_sen=len_sen, dim=512, d_ff=1024)
-    output = gmlp(input)
+    input = paddle.randn([50, 49, 512])
+    sa = MUSEAttention(d_model=512, d_k=512, d_v=512, h=8)
+    output = sa(input, input, input)
     print(output.shape)
+
+    # num_tokens = 10000
+    # bs = 50
+    # len_sen = 49
+    # num_layers = 6
+    # input = paddle.randint(num_tokens, (bs, len_sen))  # bs,len_sen
+    # gmlp = gMLP(num_tokens=num_tokens, len_sen=len_sen, dim=512, d_ff=1024)
+    # output = gmlp(input)
+    # print(output.shape)
